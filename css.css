@@ -17,7 +17,7 @@
 .menu-main li:last-child:after {content: none;}
 .menu-main a {
   text-decoration: none;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: 'Ubuntu Condensed', Times New Roman;
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
