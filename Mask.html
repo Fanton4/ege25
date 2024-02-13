@@ -30,16 +30,16 @@
 в порядке возрастания, а во втором столбце – соответствующие им
 результаты деления этих чисел на 2023.
 <p>Количество строк в таблице для ответа избыточно.</h1>
-from fnmatch import fnmatch
+<code>from fnmatch import fnmatch
 cnt=0
 for i in range(1021615,10**10+1,2023):
         if fnmatch(str(i),'1?2139*4') and i%2023==0:
             print(i,i//2023)
             cnt+=1
-            if cnt==10:break
+            if cnt==10:break</code>
             
-Так же есть альтернативный вариант решения данного задания:
-s = []
+<p>Так же есть альтернативный вариант решения данного задания:
+<code>s = []
 list_c2 = [""] + list(str(n) for n in range(1000)) + \
             list("0" + str(n) for n in range(100)) + \
             list("00" + str(n) for n in range(10))
@@ -50,6 +50,6 @@ for x in "0123456789":
        s.append(n)
 s.sort()
 for n in s:
-  print( n, n // 2023 )</h3>
+  print( n, n // 2023 )</code></p></h3>
   </body>
 </html>
