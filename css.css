@@ -1,11 +1,10 @@
-<body bgcolor="black">
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 .menu-main {
   list-style: none;
   margin: 40px 0 5px;
   padding: 25px 0 5px;
   text-align: center;
-  background: white;
+  background: black;
 }
 .menu-main li {display: inline-block;}
 .menu-main li:after {
@@ -57,7 +56,7 @@
   margin: 40px 0 5px;
   padding: 25px 0 5px;
   text-align: center;
-  background: white;
+  background: black;
   font-family: 'Ubuntu Condensed', Times New Roman;
 }
 .mask-text{  
