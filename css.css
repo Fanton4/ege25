@@ -27,7 +27,7 @@
   transition: color .2s;
 }
 .menu-main a, .menu-main a:visited {color: #9d999d;}
-.menu-main a.current, .menu-main a:hover{color: #324f8a;}
+.menu-main a.current, .menu-main a:hover{color: #536791;}
 .menu-main a:before,
 .menu-main a:after {
   content: "";
@@ -37,7 +37,7 @@
   right: 50%;
   bottom: -5px;
   left: 50%;
-  background: #419c90;
+  background: #536791;
   transition: .8s;
 }
 .menu-main a:hover:before, .menu-main .current:before {left: 0;}
@@ -56,7 +56,7 @@
   margin: 40px 0 5px;
   padding: 25px 0 5px;
   text-align: left;
-  color:#b6c2c0;
+  color:#536791;
   font-family: 'Ubuntu Condensed', Times New Roman;
 }
 .mask-text{  
@@ -85,7 +85,7 @@ border: 1px solid #333;
 border-radius: 4px;
 background: #F0FFF0;
 padding: 3px;
-color:#64769c ;
+color:#536791 ;
 font-size: 16px;
 cursor: pointer;
 display: inline-block;
