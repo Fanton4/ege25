@@ -71,3 +71,30 @@
   display: inline-block;
   transition: color .2s;
           }
+.reference {
+display: none;
+}
+.reference ~ .story{
+display: none;
+}
+.reference + label {
+position: absolute;
+top: 0;
+left: 200px;
+border: 1px solid #333;
+border-radius: 4px;
+background: #F0FFF0;
+padding: 3px;
+color:#64769c ;
+font-size: 16px;
+cursor: pointer;
+display: inline-block;
+}
+.reference:checked ~ .story {
+display: block;
+background: Snow;
+padding: 10px;
+}
+.spravca {
+position: relative;
+}
