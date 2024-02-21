@@ -9,7 +9,7 @@
 .menu-main li {display: inline-block;}
 .menu-main li:after {
   content: "|";
-  color: #f7f2f2;
+  color: #d4d144;
   display: inline-block;
   vertical-align:top;
 }
