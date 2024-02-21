@@ -92,7 +92,7 @@ display: inline-block;
 }
 .reference:checked ~ .story {
 display: block;
-background: Snow;
+background: #3b3934;
 padding: 10px;
 }
 .spravca {
