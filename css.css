@@ -27,7 +27,7 @@
   transition: color .2s;
 }
 .menu-main a, .menu-main a:visited {color: #9d999d;}
-.menu-main a.current, .menu-main a:hover{color: #536791;}
+.menu-main a.current, .menu-main a:hover{color: #d4d144;}
 .menu-main a:before,
 .menu-main a:after {
   content: "";
@@ -37,7 +37,7 @@
   right: 50%;
   bottom: -5px;
   left: 50%;
-  background: #536791;
+  background: #d4d144;
   transition: .8s;
 }
 .menu-main a:hover:before, .menu-main .current:before {left: 0;}
